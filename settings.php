@@ -32,8 +32,16 @@ include("session.php");
         </div>
       </div>
     </nav><br><br>
-    <center>
-      
-    </center>
+    <form class="col-md-12" method="POST" action="savechanges.php">
+        <div class="form-group">
+            <input type="text" class="form-control input-lg" placeholder="Amount" name="amount">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control input-lg" placeholder="Time Interval" name="time">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary btn-lg btn-block" type="submit" name="save">Save Changes</button>
+        </div>
+    </form>
 </body>
 </html>

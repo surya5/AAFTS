@@ -11,6 +11,7 @@ if(!isset($login_session))
 }
 $info = mysql_query("select * from login join userinfo on login.username = userinfo.username where userinfo.username='$check'");
 $row1 = mysql_fetch_array($info);
+$naam = $row1['username'];
 $name = $row1['name'];
 $dept = $row1['dept'];
 $dob = $row1['dob'];
