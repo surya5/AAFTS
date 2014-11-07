@@ -1,14 +1,11 @@
 <?php 
 include('session.php');
 {
-	$amount = (is_numeric($_POST['amount']) ? (int)$_POST['amount'] : 0);
-	$time = (is_numeric($_POST['time']) ? (int)$_POST['time'] : 0);;
-	$details = mysql_query("SELECT * from login join donation on login.username=donation.username where login.username='$naam'");
-	$num = mysql_num_rows($details);
+	$amount1 = (is_numeric($_POST['amount']) ? (int)$_POST['amount'] : $amount);
+	$time1 = (is_numeric($_POST['time']) ? (int)$_POST['time'] : $time);
 	if(isset($_POST['save']))
 	{
-		$query = mysql_query("update donation set amount='$amount' where username='$naam'");
-		$query1 = mysql_query("update donation set time='$time' where username='$naam'");
+		$query = mysql_query("update donation set amount='$amount1', time='$time1' where username='$naam'");
 		header("Location:donation.php");
 	}
 }
