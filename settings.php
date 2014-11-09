@@ -67,49 +67,6 @@ include("session.php");
         </div>
       </div>
     </nav><br><br>
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" >
-          <div class="panel panel-info">
-            <div class="panel-heading">
-              <h3 class="panel-title"><?php echo $name; ?></h3>
-            </div>
-            <div class="panel-body">
-              <div class="row">
-                <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="contact.png" class="img-circle"> </div>
-                <div class=" col-md-9 col-lg-9 "> 
-                  <form class="col-md-12" method="POST" action="savechanges.php">
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">Amount</label>
-                        <div class="col-sm-10">
-                          <select name="amount" class="form-control">
-                            <option>30</option>
-                            <option>60</option>
-                            <option>100</option>
-                          </select>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">Time</label>
-                        <div class="col-sm-10">
-                          <select name="time" class="form-control">
-                            <option>1</option>
-                            <option>3</option>
-                            <option>6</option>
-                          </select>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <button class="btn btn-primary btn-lg btn-block" type="submit" name="save">Save Changes</button>
-                    </div>
-                </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
     <div class="row">
     <div class="col-md-4 col-md-offset-4">
       <form class="form-horizontal" role="form" method="POST" action="savechanges.php">
