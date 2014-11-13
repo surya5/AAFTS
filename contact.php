@@ -64,11 +64,9 @@ include('session.php');
         </div>
       </div>
     </nav>
-<<<<<<< HEAD
+
     <br><br><br><br><br><br>
-=======
-    <hr><hr><hr><hr> <hr><hr>
->>>>>>> c08bc8f98a387c4967f432e2ef02cd7db718710e
+
     <center>
     	<div>
     		<h1>AVANA Club</h1><p>Indian Institute of Technology <br>Indore <br> Madhya Pradesh <br></p>
@@ -77,21 +75,21 @@ include('session.php');
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	<div class="container">
         <div class="text-center center-block">
-<<<<<<< HEAD
+
             <br>
-=======
+
             <br />
->>>>>>> c08bc8f98a387c4967f432e2ef02cd7db718710e
+
                 <a href="https://www.facebook.com/AvanaPage"><i id="social" class="fa fa-facebook-square fa-3x social-fb"></i></a>
 	            <a href="https://twitter.com"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
 	            <a href="https://plus.google.com"><i id="social" class="fa fa-google-plus-square fa-3x social-gp"></i></a>
 	            <a href="mailto:surya.thogaru@gmail.com"><i id="social" class="fa fa-envelope-square fa-3x social-em"></i></a>
 		</div>
-<<<<<<< HEAD
+
     	<br>
-=======
+
     	<hr>
->>>>>>> c08bc8f98a387c4967f432e2ef02cd7db718710e
+
 	</div>
 </body>
 </html>
