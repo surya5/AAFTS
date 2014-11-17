@@ -69,39 +69,36 @@ include("session.php");
         </div>
       </div>
     </nav><br><br>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" >
-          <div class="panel panel-info">
-            <div class="panel-heading">
-              <h3 class="panel-title"><?php echo $name; ?></h3>
+    <div class="row">
+    <div class="col-md-4 col-md-offset-4">
+      <form class="form-horizontal" role="form" method="POST" action="changepassword.php">
+        <fieldset>
+          <legend>Change password</legend>
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="textinput">Existing Password</label>
+            <div class="col-sm-10">
+              <input type="password" name="exist" class="form-control">
             </div>
-            <div class="panel-body">
-              <div class="row">
-                <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="contact.png" class="img-circle"> </div>
-                <div class=" col-md-9 col-lg-9 "> 
-                  <table class="table table-user-information">
-                    <tbody>
-                      <tr>
-                        <td>Donation amount</td>
-                        <td><?php echo $amount; ?></td>
-                      </tr>
-                      <tr>
-                        <td>Time interval</td>
-                        <td><?php echo $time; ?></td>
-                      </tr>
-                      <tr>
-                        <td>Total amount donated</td>
-                        <td><?php echo $total; ?></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="textinput">New Password</label>
+            <div class="col-sm-10">
+              <input type="password" name="new" class="form-control">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <div class="pull-right">
+                <button type="submit" class="btn btn-default" name="cancel">Cancel</button>
+                <button type="submit" class="btn btn-primary" name="save">Save</button>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+
+        </fieldset>
+      </form>
     </div>
 </body>
-</html>
+</html> 

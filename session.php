@@ -24,10 +24,4 @@ $row2 = mysql_fetch_array($donation);
 $amount = $row2['amount'];
 $time = $row2['time'];
 $total = $row2['total'];
-$pay = mysql_query("CREATE EVENT test_event_03
-ON SCHEDULE EVERY 1 MINUTE
-ON COMPLETION PRESERVE
-DO
-   UPDATE donation 
-   set time = time + 1 where donation.username='$check'");
  ?>

@@ -59,8 +59,7 @@ include("session.php");
             <li><a href="profile.php">Profile</a></li>
             <li><a href="donation.php">Donation Info</a></li>
             <li><a href="settings.php">Settings</a></li>
-            <li><a href="changepass.php">Change Password</a></li>
-            <?php if($naam=="adminAAFTS@iiti.ac.in") echo "<li><a href='register.php'>Register new user</a></li>" ?>
+            <li><a href="register.php">Register new user</a></li>
             <li><a href="contact.php">Contact</a></li>
           </ul>
           <ul class="nav navbar-nav" style="float:right;">
@@ -83,17 +82,30 @@ include("session.php");
                   <table class="table table-user-information">
                     <tbody>
                       <tr>
-                        <td>Donation amount</td>
-                        <td><?php echo $amount; ?></td>
+                        <td>Profession</td>
+                        <td><?php echo $profession; ?></td>
                       </tr>
                       <tr>
-                        <td>Time interval</td>
-                        <td><?php echo $time; ?></td>
+                        <td>Department</td>
+                        <td><?php echo $dept; ?></td>
                       </tr>
                       <tr>
-                        <td>Total amount donated</td>
-                        <td><?php echo $total; ?></td>
+                        <td>Date of Birth</td>
+                        <td><?php echo $dob; ?></td>
                       </tr>
+                      <tr>
+                        <td>Gender</td>
+                        <td><?php echo $gender; ?></td>
+                      </tr>
+                      <tr>
+                        <td>Email</td>
+                        <td><?php echo $email; ?></td>
+                      </tr>
+                        <td>Phone Number</td>
+                        <td><?php echo $phone; ?></td>
+                           
+                      </tr>
+                     
                     </tbody>
                   </table>
                 </div>

@@ -59,6 +59,8 @@ include("session.php");
             <li><a href="profile.php">Profile</a></li>
             <li><a href="donation.php">Donation Info</a></li>
             <li><a href="settings.php">Settings</a></li>
+            <li><a href="changepass.php">Change Password</a></li>
+            <?php if($naam=="adminAAFTS@iiti.ac.in") echo "<li><a href='register.php'>Register new user</a></li>" ?>
             <li><a href="contact.php">Contact</a></li>
           </ul>
           <ul class="nav navbar-nav" style="float:right;">
